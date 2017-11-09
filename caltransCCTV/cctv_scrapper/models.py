@@ -9,3 +9,5 @@ class CameraFeed(models.Model):
 
     class Meta:
         db_table = "scrapped_feeds"
+    
+    

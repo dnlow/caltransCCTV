@@ -22,7 +22,7 @@ class Camera(models.Model):
         try:
             camera = Camera.objects.get(name = self.name)
             camera.feed = feed
-        except DoesNotExist:
+        except Camera.DoesNotExist:
             return
 
     def addToTable(self):
