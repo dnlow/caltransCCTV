@@ -69,23 +69,24 @@ function setImages(cameras)
     {
         var img = document.createElement("img");
         var lbl = document.createElement("h4");
+        var div = document.createElement('div');
         img.src = cameras[i].img;
         lbl.innerHTML = cameras[i].name;
 
-        camera_div.appendChild(lbl);
-        camera_div.appendChild(img);
+        div.appendChild(lbl);
+        div.appendChild(img);
+        camera_div.appendChild(div);
     }
 }
 
 function removeCurrentFeeds()
 {
     var camera_div = document.getElementById("cameras");
-    camera_div.innerHTML = '';
-    /*while (camera_div.hasChildNodes())
+    while (camera_div.hasChildNodes())
     {
         console.log("Removed a child");
         camera_div.removeChild(camera_div.lastChild);
-    }*/
+    }
 }
 
 /* Function populates a dictionary of arrays of dictionarys (complicated, I know)
