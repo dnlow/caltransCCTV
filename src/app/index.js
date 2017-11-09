@@ -70,6 +70,7 @@ function setImages(cameras)
         var img = document.createElement("img");
         var lbl = document.createElement("h4");
         var div = document.createElement('div');
+        div.style = "display:table-cell";
         img.src = cameras[i].img;
         lbl.innerHTML = cameras[i].name;
 

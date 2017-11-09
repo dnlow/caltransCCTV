@@ -14,7 +14,7 @@
     <script src="/src/app/index.js" type="text/javascript"></script>
   </head>
 
-  <body onload="init();">
+  <body onload="init()">
       <h1>Traffic Cameras</h1>
       <div id="navigation" style="clear:both; width:100%;">
       <!-- CODE HERE FOR NAVIGATION -->
@@ -28,7 +28,7 @@
       </div>
 
       <div>
-        <select id="segment_selection" onchange="updateFeeds();">
+        <select id="segment_selection" onchange="updateFeeds()">
           <option value="PR">Paso Robles</option>
           <option value="AG" >Arroyo Grande</option>
           <option value="AT">Atascadero</option>
@@ -41,8 +41,10 @@
 
       <div id="camera_wrapper" style="clear:both; width: 100%">
           <h2 id="selected_area">All Feeds</h2>
-          <div id="cameras">
+          <div id="camera_table" style="display:table; width:100%">
+            <div id="cameras" style="display:table-row">
 
+            </div>
           </div>
       </div>
 
