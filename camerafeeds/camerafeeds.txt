@@ -1,24 +1,24 @@
-"US-101 - Paso Robles : SR-46 East" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/SR-46-East.jpg',
-"US-101 - Atascadero : Hwy 101 in Atascadero at Traffic Way" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Traffic-Way.jpg',
-"US-101 - Atascadero : US 101 at Hwy 41 West in Atascadero" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Hwy-41-West.jpg',
-"US-101 - Atascadero : Curbaril" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Curbaril.jpg',
-"US-101 - Atascadero : Hwy 101 in Atascadero at Santa Rosa Rd" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Santa-Rosa-Road.jpg',
-"US-101 - Atascadero : Hwy 101 in Atascadero at Santa Barbara Rd" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Santa-Barbara-Road.jpg',
-"US-101 - Atascadero : Hwy 101 in Atascadero : SR-58" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/SR-58.jpg',
-"US-101 - San Luis Obispo : Fox Hollow" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Fox-Hollow.jpg',
-"US-101 - San Luis Obispo : Broad Street" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Broad-Street.jpg',
-"US-101 - San Luis Obispo : Marsh Street" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Marsh-Street.jpg',
-"US-101 - San Luis Obispo : Monterey Street" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Monterey-Street.jpg',
-"US-101 - San Luis Obispo : Madonna Road" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Madonna-Road.jpg',
-"US-101 - San Luis Obispo : Los Osos Valley Road" : 'http://www.dot.ca.gov/cwwp2/data/d5/cctv/image/Los-Osos-Valley-Road.jpg',
-"US-101 - San Luis Obispo : South Higuera Street" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/South-Higuera.jpg',
-"US-101 - San Luis Obispo : San Luis Bay Drive" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/San-Luis-Bay-Drive.jpg',
-"US-101 - Pismo Beach : Avila Beach Drive" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Avila-Beach-Drive.jpg',
-"US-101 - Pismo Beach : Spyglass" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Spyglass.jpg',
-"US-101 - Pismo Beach : Mattie Road" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Mattie-Road.jpg',
-"US-101 - Pismo Beach : Dolliver" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Dolliver.jpg',
-"US-101 - Pismo Beach : 4th Street" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/4th-Street.jpg',
-"US-101 - Arroyo Grande : Camino Mercado" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Camino-Mercado.jpg',
-"US-101 - Arroyo Grande : Grand Avenue" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Grand-Avenue.jpg',
-"US-101 - Santa Maria : SR-135 Broadway" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/SR-135.jpg',
-"US-101 - Santa Maria : US 101 at Union Valley Parkway in Santa Maria" : 'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Union-Valley-Parkway.jpg',
+US-101 - Paso Robles : SR-46 East,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/SR-46-East.jpg
+US-101 - Atascadero : Hwy 101 in Atascadero at Traffic Way,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Traffic-Way.jpg
+US-101 - Atascadero : US 101 at Hwy 41 West in Atascadero,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Hwy-41-West.jpg
+US-101 - Atascadero : Curbaril,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Curbaril.jpg
+US-101 - Atascadero : Hwy 101 in Atascadero at Santa Rosa Rd,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Santa-Rosa-Road.jpg
+US-101 - Atascadero : Hwy 101 in Atascadero at Santa Barbara Rd,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Santa-Barbara-Road.jpg
+US-101 - Atascadero : Hwy 101 in Atascadero : SR-58,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/SR-58.jpg
+US-101 - San Luis Obispo : Fox Hollow,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Fox-Hollow.jpg
+US-101 - San Luis Obispo : Broad Street,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Broad-Street.jpg
+US-101 - San Luis Obispo : Marsh Street,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Marsh-Street.jpg
+US-101 - San Luis Obispo : Monterey Street,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Monterey-Street.jpg
+US-101 - San Luis Obispo : Madonna Road,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Madonna-Road.jpg
+US-101 - San Luis Obispo : Los Osos Valley Road,http://www.dot.ca.gov/cwwp2/data/d5/cctv/image/Los-Osos-Valley-Road.jpg
+US-101 - San Luis Obispo : South Higuera Street,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/South-Higuera.jpg
+US-101 - San Luis Obispo : San Luis Bay Drive,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/San-Luis-Bay-Drive.jpg
+US-101 - Pismo Beach : Avila Beach Drive,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Avila-Beach-Drive.jpg
+US-101 - Pismo Beach : Spyglass,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Spyglass.jpg
+US-101 - Pismo Beach : Mattie Road,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Mattie-Road.jpg
+US-101 - Pismo Beach : Dolliver,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Dolliver.jpg
+US-101 - Pismo Beach : 4th Street,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/4th-Street.jpg
+US-101 - Arroyo Grande : Camino Mercado,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Camino-Mercado.jpg
+US-101 - Arroyo Grande : Grand Avenue,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Grand-Avenue.jpg
+US-101 - Santa Maria : SR-135 Broadway,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/SR-135.jpg
+US-101 - Santa Maria : US 101 at Union Valley Parkway in Santa Maria,http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Union-Valley-Parkway.jpg
