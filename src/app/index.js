@@ -6,6 +6,7 @@ function init()
 // Function gets the selected region and then sends info to getImages()
 function updateFeeds()
 {
+    removeCurrentFeeds();
     // Get the selection menu
     var selection = document.getElementById("segment_selection");
     var selected_area = document.getElementById("selected_area");
@@ -20,7 +21,6 @@ function updateFeeds()
    dict to setImageS() */
 function getImages(region)
 {
-    $( "cameras" ).load(window.location.href + " #cameras")
     var all_regions = ["AG", "AT", "SLO", "PB", "PR", "SM"];
     // See the getFeeds() function for what this var is
     var allfeeds = getFeeds();
@@ -75,6 +75,17 @@ function setImages(cameras)
         camera_div.appendChild(lbl);
         camera_div.appendChild(img);
     }
+}
+
+function removeCurrentFeeds()
+{
+    var camera_div = document.getElementById("cameras");
+    camera_div.innerHTML = '';
+    /*while (camera_div.hasChildNodes())
+    {
+        console.log("Removed a child");
+        camera_div.removeChild(camera_div.lastChild);
+    }*/
 }
 
 /* Function populates a dictionary of arrays of dictionarys (complicated, I know)
