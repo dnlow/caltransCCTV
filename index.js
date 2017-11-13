@@ -6,6 +6,8 @@ function init()
 // Function gets the selected region and then sends info to getImages()
 function updateFeeds()
 {
+    camera_count = 0;
+    rows = 0;
     removeCurrentFeeds();
     // Get the selection menu
     var selection = document.getElementById("segment_selection");
@@ -42,11 +44,15 @@ function getImages(region)
         }
         
         // Now go set the image feeds
-        setImages(regional_feeds);    
+        var row = null;
+        row = setImages(regional_feeds, row);    
+        var camera_div = document.getElementById("camera_table");
+        camera_div.appendChild(row);
     }
     else 
     {
-        regional_feeds = allfeeds;        
+        regional_feeds = allfeeds; 
+        var row = null;       
         for (var n = 0, l = all_regions.length; n < l; n ++)
         {
             for (var i = 0, len = regional_feeds[all_regions[n]].length; i < len; i++)
@@ -54,30 +60,44 @@ function getImages(region)
                 regional_feeds[all_regions[n]][i].img += ("?" + current_time);
             }
             // Now go set the image feeds
-            setImages(regional_feeds[all_regions[n]]); 
+            row = setImages(regional_feeds[all_regions[n]], row); 
         }
+
+        var camera_div = document.getElementById("camera_table");
+        camera_div.appendChild(row);
     }
 }
 
 /* Function that sets the provided images and titles of the feeds onto the html
     in table rows of 5 */
-function setImages(cameras)
+var rows = 0;
+var camera_count = 0;
+function setImages(cameras, row)
 {
+    var feed_row;
+    // check if it's the first row to be added
+    if (row == null)
+    {
+        feed_row = document.createElement('div');
+        feed_row.id = "camera_row_" + rows;
+        feed_row.style = "display:table-row";
+    }
+    else
+    {
+        feed_row = row;
+    }
     // Get the Camera table
     var camera_div = document.getElementById("camera_table");
-    var rows = 0;
-    var feed_row = document.createElement('div');
-    feed_row.id = "camera_row_" + rows;
-    feed_row.style = "display:table-row";
+    
 
-    for (var i = 0, len = cameras.length; i < len; i++)
+    for (var i = 0, len = cameras.length; i < len; i++, camera_count++)
     {
         var img = document.createElement("img");
         var lbl = document.createElement("h4");
         var div = document.createElement('div');
 
         // We've maxed the row, time to make a new row
-        if (i%5 == 0)
+        if (camera_count != 0 && camera_count%5 == 0)
         {
             camera_div.appendChild(feed_row);
             rows++;
@@ -94,8 +114,7 @@ function setImages(cameras)
         div.appendChild(img);
         feed_row.appendChild(div);
     }
-
-    camera_div.appendChild(feed_row);
+    return feed_row;
 }
 
 function removeCurrentFeeds()
