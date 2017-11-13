@@ -1,6 +1,6 @@
 function init()
 {
-    //updateFeeds();
+    updateFeeds();
 }
 
 // Function gets the selected region and then sends info to getImages()
@@ -60,29 +60,47 @@ function getImages(region)
 }
 
 /* Function that sets the provided images and titles of the feeds onto the html
-    It's a lil janky */
+    in table rows of 5 */
 function setImages(cameras)
 {
-    // Get the Camera div wrapper
-    var camera_div = document.getElementById("cameras");
+    // Get the Camera table
+    var camera_div = document.getElementById("camera_table");
+    var rows = 0;
+    var feed_row = document.createElement('div');
+    feed_row.id = "camera_row_" + rows;
+    feed_row.style = "display:table-row";
+
     for (var i = 0, len = cameras.length; i < len; i++)
     {
         var img = document.createElement("img");
         var lbl = document.createElement("h4");
         var div = document.createElement('div');
+
+        // We've maxed the row, time to make a new row
+        if (i%5 == 0)
+        {
+            camera_div.appendChild(feed_row);
+            rows++;
+            feed_row = document.createElement('div');
+            feed_row.id = "camera_row_" + rows;
+            feed_row.style = "display:table-row";
+        }
+
         div.style = "display:table-cell";
         img.src = cameras[i].img;
         lbl.innerHTML = cameras[i].name;
 
         div.appendChild(lbl);
         div.appendChild(img);
-        camera_div.appendChild(div);
+        feed_row.appendChild(div);
     }
+
+    camera_div.appendChild(feed_row);
 }
 
 function removeCurrentFeeds()
 {
-    var camera_div = document.getElementById("cameras");
+    var camera_div = document.getElementById("camera_table");
     while (camera_div.hasChildNodes())
     {
         console.log("Removed a child");
