@@ -9,8 +9,8 @@
             "type": "chrome",
             "request": "launch",
             "sourceMaps": true,
-            "url": "http://192.168.1.134:8005/index.html",
-            "webRoot": "http://192.168.1.134:8005"
+            "url": "http://192.168.1.134:8008/index.html",
+            "webRoot": "http://192.168.1.134:8008"
         }
     ]
 }

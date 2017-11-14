@@ -135,7 +135,7 @@ function removeCurrentFeeds()
           ARRAY INDEXES - Point to a DICTIONARY
               INNER DICTIONARIES:
                   1st KEY - NAME
-                  1st VALUE - the name of the camera, i.e. 'US-101 - Paso Robles : SR-46 East'
+                  1st VALUE - the name of the camera, i.e. 'Paso Robles : SR-46 East'
                   2nd KEY - IMG
                   2nd VALUE - URL of the image of the feed snapshot
  The good news is by using this we can simply filter what region we want by doing this:
@@ -146,59 +146,59 @@ function getFeeds()
 {
     var feeds = {
     "PR" : [ 
-        {"name":'US-101 - Paso Robles : SR-46 East',
+        {"name":'Paso Robles : SR-46 East',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/SR-46-East.jpg'} 
     ],
     "AT" : [ 
-        {"name":'US-101 - Atascadero : Hwy 101 in Atascadero at Traffic Way',
+        {"name":'Atascadero : Traffic Way',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Traffic-Way.jpg'},
-        {"name":'US-101 - Atascadero : US 101 at Hwy 41 West in Atascadero',
+        {"name":'Atascadero : Hwy 41 West in Atascadero',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Hwy-41-West.jpg'},
-        {"name":'US-101 - Atascadero : Curbaril',
+        {"name":'Atascadero : Curbaril',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Curbaril.jpg'},
-        {"name":'US-101 - Atascadero : Hwy 101 in Atascadero at Santa Rosa Rd',
+        {"name":'Atascadero :Santa Rosa Rd',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Santa-Rosa-Road.jpg'},
-        {"name":'US-101 - Atascadero : Hwy 101 in Atascadero at Santa Barbara Rd',
+        {"name":'Atascadero : Santa Barbara Rd',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Santa-Barbara-Road.jpg'},
-        {"name":'US-101 - Atascadero : Hwy 101 in Atascadero : SR-58',
+        {"name":'Atascadero : SR-58',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/SR-58.jpg'}
     ],
-    "SLO" : [{"name":'US-101 - San Luis Obispo : Fox Hollow',
+    "SLO" : [{"name":'San Luis Obispo : Fox Hollow',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Fox-Hollow.jpg'},
-        {"name":'US-101 - San Luis Obispo : Broad Street',
+        {"name":'San Luis Obispo : Broad Street',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Broad-Street.jpg'},
-        {"name":'US-101 - San Luis Obispo : Marsh Street',
+        {"name":'San Luis Obispo : Marsh Street',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Marsh-Street.jpg'},
-        {"name":'US-101 - San Luis Obispo : Monterey Street',
+        {"name":'San Luis Obispo : Monterey Street',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Monterey-Street.jpg'},
-        {"name":'US-101 - San Luis Obispo : Madonna Road',
+        {"name":'San Luis Obispo : Madonna Road',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Madonna-Road.jpg'},
-        {"name":'US-101 - San Luis Obispo : Los Osos Valley Road',
+        {"name":'San Luis Obispo : Los Osos Valley Road',
         "img":'http://www.dot.ca.gov/cwwp2/data/d5/cctv/image/Los-Osos-Valley-Road.jpg'},
-        {"name":'US-101 - San Luis Obispo : South Higuera Street',
+        {"name":'San Luis Obispo : South Higuera Street',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/South-Higuera.jpg'},
-        {"name":'US-101 - San Luis Obispo : San Luis Bay Drive',
+        {"name":'San Luis Obispo : San Luis Bay Drive',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/San-Luis-Bay-Drive.jpg'}
     ],
-    "PB" : [{"name":'US-101 - Pismo Beach : Avila Beach Drive',
+    "PB" : [{"name":'Pismo Beach : Avila Beach Drive',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Avila-Beach-Drive.jpg'},
-        {"name":'US-101 - Pismo Beach : Spyglass',
+        {"name":'Pismo Beach : Spyglass',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Spyglass.jpg'},
-        {"name":'US-101 - Pismo Beach : Mattie Road',
+        {"name":'Pismo Beach : Mattie Road',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Mattie-Road.jpg'},
-        {"name":'US-101 - Pismo Beach : Dolliver',
+        {"name":'Pismo Beach : Dolliver',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Dolliver.jpg'},
-        {"name":'US-101 - Pismo Beach : 4th Street',
+        {"name":'Pismo Beach : 4th Street',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/4th-Street.jpg'}
     ],
-    "AG" : [{"name":'US-101 - Arroyo Grande : Camino Mercado',
+    "AG" : [{"name":'Arroyo Grande : Camino Mercado',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Camino-Mercado.jpg'},
-        {"name":'US-101 - Arroyo Grande : Grand Avenue',
+        {"name":'Arroyo Grande : Grand Avenue',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Grand-Avenue.jpg'}
     ],
-    "SM" : [{"name":'US-101 - Santa Maria : SR-135 Broadway',
+    "SM" : [{"name":'Santa Maria : SR-135 Broadway',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/SR-135.jpg'},
-        {"name":'US-101 - Santa Maria : US 101 at Union Valley Parkway in Santa Maria',
+        {"name":'Santa Maria : Union Valley Parkway in Santa Maria',
         "img":'http://www1.dot.ca.gov/cwwp2/data/d5/cctv/image/Union-Valley-Parkway.jpg'}
     ]};
     return feeds;
